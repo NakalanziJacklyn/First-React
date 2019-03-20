@@ -3,7 +3,7 @@ import image1 from "./images/apple.jpeg";
 import image2 from "./images/fresh.jpeg";
 import image3 from "./images/tomato.jpeg";
 
-class Silder extends Component {
+class Slider extends Component {
   render() {
     return (
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -93,4 +93,4 @@ class Silder extends Component {
   }
 }
 
-export default Silder;
+export default Slider;

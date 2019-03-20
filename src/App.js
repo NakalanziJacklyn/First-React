@@ -1,5 +1,8 @@
 import React, { Component, Fragment } from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch , redirect} from "react-router-dom";
+
+// import Router from 'react-router-dom/Route';
+
 import SimpleState from "./Components/Basics/SimpleState";
 import Navbar from "./Components/Layout/Navbar";
 import Slider from "./Components/Layout/Slider";
@@ -16,11 +19,14 @@ class App extends Component {
       <div>
         <Router>
           <Switch>
-          <Route exact path="/" component={Slider}/>
           <Route exact path="/about" component={About}/>
-          <Route exact path="/register" component={Register}/>
-          <Route exact path="/login" component={Login}/>
-          </Switch>
+          <Route  path="/register" exact render={
+            () => {
+              return (Register)
+            }
+          }/>
+          <Route path="/login" exact  component={Login}/>
+          </Switch> 
         </Router>
         <Navbar />
         {/* <Slider /> */}
