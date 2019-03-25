@@ -1,5 +1,11 @@
 import React, { Component, Fragment } from "react";
-import { BrowserRouter as Router, Route, Link, Switch , redirect} from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+  redirect
+} from "react-router-dom";
 
 // import Router from 'react-router-dom/Route';
 
@@ -7,6 +13,8 @@ import SimpleState from "./Components/Basics/SimpleState";
 import Navbar from "./Components/Layout/Navbar";
 import Slider from "./Components/Layout/Slider";
 import Login from "./Components/Layout/Login";
+import Quality from "./Components/Layout/Quality";
+import Pricing from "./Components/Layout/Pricing";
 import About from "./Components/Layout/About";
 import Register from "./Components/Layout/Register";
 import "./App.css";
@@ -16,25 +24,23 @@ import "bootstrap/dist/js/bootstrap.bundle";
 class App extends Component {
   render() {
     return (
-      <div>
-        <Router>
-          <Switch>
-          <Route exact path="/about" component={About}/>
-          <Route  path="/register" exact render={
-            () => {
-              return (Register)
-            }
-          }/>
-          <Route path="/login" exact  component={Login}/>
-          </Switch> 
-        </Router>
-        <Navbar />
-        {/* <Slider /> */}
-        {/* <SimpleState /> */}
-        <Login />
-        <Register />
-        <About />
-      </div>
+      <Router>
+        <div>
+             <Navbar />
+          <Switch>         
+            <Route exact path="/" component={Navbar} />
+            <Route exact path="/slider" component={Slider} />
+            <Route exact path="/about/" component={About} />
+            <Route exact path="/register/" component={Register} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/quality" component={Quality} />
+            <Route exact path="/Pricing" component={Pricing} />
+          </Switch>
+
+          {/* <Slider />  */}
+          {/* <SimpleState />  */}
+        </div>
+      </Router>
     );
   }
 }

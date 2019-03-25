@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-
+import "../../mine.css"
 
 class Register extends Component {
     // state = {  }
     render() { 
         return ( 
             <div>
+              <h1>Register page</h1>
     <div className="container">
     <div className="row">
       <div className="col-lg-10 col-xl-9 mx-auto">
@@ -36,7 +37,7 @@ class Register extends Component {
               </div>
 
               <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
-              <a className="d-block text-center mt-2 small" href="#">Sign In</a>
+              <a className="d-block text-center mt-2 small" href="Login">Sign In</a>
               
             </form>
           </div>

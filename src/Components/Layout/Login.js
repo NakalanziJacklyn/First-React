@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "../../mine.css"
 
 
 class Login extends Component {
@@ -6,6 +7,7 @@ class Login extends Component {
     render() { 
         return ( 
             <div>
+              <h1>login page</h1>
      <div className="container">
     <div className="row">
       <div className="col-lg-10 col-xl-9 mx-auto">
@@ -26,8 +28,8 @@ class Login extends Component {
                 {/* <label for="inputPassword">Password</label> */}
               </div>
               
-             <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Login</button>
-              <a className="d-block text-center mt-2 small" href="#">Sign up</a>
+             <button><a className="d-block text-center mt-2 small" href="Register">Sign up</a>Login</button>
+              <a className="d-block text-center mt-2 small" href="Register">Sign up</a>
               
             </form>
           </div>
