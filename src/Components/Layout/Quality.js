@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../../mine.css"
+
 
 class Quality extends Component {
     state = {  }
