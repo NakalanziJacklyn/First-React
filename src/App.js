@@ -11,7 +11,7 @@ import {
 
 import SimpleState from "./Components/Basics/SimpleState";
 import Navbar from "./Components/Layout/Navbar";
-import Slider from "./Components/Layout/Slider";
+import Order from "./Components/Layout/Order";
 import Login from "./Components/Layout/Login";
 import Quality from "./Components/Layout/Quality";
 import Pricing from "./Components/Layout/Pricing";
@@ -29,7 +29,7 @@ class App extends Component {
              <Navbar />
           <Switch>         
             <Route exact path="/" component={Navbar} />
-            <Route exact path="/slider" component={Slider} />
+            <Route exact path="/order" component={Order} />
             <Route exact path="/about/" component={About} />
             <Route exact path="/register/" component={Register} />
             <Route exact path="/login" component={Login} />
