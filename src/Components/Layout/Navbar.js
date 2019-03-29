@@ -8,7 +8,7 @@ render(){
 return(
 <Fragment>
 <div>
-<nav className="navbar navbar-light fixed-top" >
+<nav className="navbar navbar-light" >
 {/* <div className="container"> */}
 <div className="navbar-header">
 <ul className="" id="navb">

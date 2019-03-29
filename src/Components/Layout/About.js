@@ -12,127 +12,189 @@ export default class About extends Component {
         <h2>our team</h2>
 
         <div className="container">
-  <div className="row">
-    {/* <!-- Team Member 1 --> */}
-    <div className="col-xl-3 col-md-6 mb-4">
-      <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="..." />
-        <div className="card-body text-center">
-          <h5 className="card-title mb-0">Team Member</h5>
-          <div className="card-text text-black-50">Web Developer</div>
+          <div className="row">
+            {/* <!-- Team Member 1 --> */}
+            <div className="col-xl-3 col-md-6 mb-4">
+              <div className="card border-0 shadow">
+                <img
+                  src="https://source.unsplash.com/TMgQMXoglsM/500x350"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div className="card-body text-center">
+                  <h5 className="card-title mb-0">Team Member</h5>
+                  <div className="card-text text-black-50">Web Developer</div>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Team Member 2 --> */}
+            <div className="col-xl-3 col-md-6 mb-4">
+              <div class="card border-0 shadow">
+                <img
+                  src="https://source.unsplash.com/9UVmlIb0wJU/500x350"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div className="card-body text-center">
+                  <h5 className="card-title mb-0">Team Member</h5>
+                  <div className="card-text text-black-50">Web Developer</div>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Team Member 3 --> */}
+            <div className="col-xl-3 col-md-6 mb-4">
+              <div className="card border-0 shadow">
+                <img
+                  src="https://source.unsplash.com/sNut2MqSmds/500x350"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div className="card-body text-center">
+                  <h5 className="card-title mb-0">Team Member</h5>
+                  <div className="card-text text-black-50">Web Developer</div>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Team Member 4 --> */}
+            <div className="col-xl-3 col-md-6 mb-4">
+              <div className="card border-0 shadow">
+                <img
+                  src="https://source.unsplash.com/ZI6p3i9SbVU/500x350"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div className="card-body text-center">
+                  <h5 className="card-title mb-0">Team Member</h5>
+                  <div className="card-text text-black-50">Web Developer</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- /.row --> */}
         </div>
-      </div>
-    </div>
-    {/* <!-- Team Member 2 --> */}
-    <div className="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="..." />
-        <div className="card-body text-center">
-          <h5 className="card-title mb-0">Team Member</h5>
-          <div className="card-text text-black-50">Web Developer</div>
-        </div>
-      </div>
-    </div>
-    {/* <!-- Team Member 3 --> */}
-    <div className="col-xl-3 col-md-6 mb-4">
-      <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="..." />
-        <div className="card-body text-center">
-          <h5 className="card-title mb-0">Team Member</h5>
-          <div className="card-text text-black-50">Web Developer</div>
-        </div>
-      </div>
-    </div>
-    {/* <!-- Team Member 4 --> */}
-    <div className="col-xl-3 col-md-6 mb-4">
-      <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="..." />
-        <div className="card-body text-center">
-          <h5 className="card-title mb-0">Team Member</h5>
-          <div className="card-text text-black-50">Web Developer</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* <!-- /.row --> */}
-
-</div>
 
         <h1>Our Gallery</h1>
 
         {/* <!-- Page Content --> */}
-<div className="container">
+        <div className="container">
+          <h1 className="font-weight-light text-center text-lg-left mt-4 mb-0">
+            Thumbnail Gallery
+          </h1>
 
-  <h1 className="font-weight-light text-center text-lg-left mt-4 mb-0">Thumbnail Gallery</h1>
+          <hr className="mt-2 mb-5" />
 
-  <hr className="mt-2 mb-5" />
-
-  <div className="row text-center text-lg-left">
-
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="" />
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="" />
-          </a>
-    </div>
-    <div className="col-lg-3 col-md-4 col-6">
-      <a href="#" className="d-block mb-4 h-100">
-            <img className="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="" />
-          </a>
-    </div>
-  </div>
-
-</div>
-{/* <!-- /.container --> */}
+          <div className="row text-center text-lg-left">
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/pWkk7iiCoDM/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/aob0ukAYfuI/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/EUfxH-pze7s/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/M185_qYH8vg/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/sesveuG_rNo/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/AvhMzHwiE_0/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/2gYsZUmockw/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/EMSDtjVHdQ8/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/8mUEy0ABdNE/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/G9Rfc1qccH4/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/aJeH0KcFkuc/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-6">
+              <a href="#" className="d-block mb-4 h-100">
+                <img
+                  className="img-fluid img-thumbnail"
+                  src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* <!-- /.container --> */}
 
         <h3>Our History</h3>
         <h4>Services Offered</h4>
@@ -237,8 +299,43 @@ export default class About extends Component {
           </a>
         </div>
 
-        <h5>Time of delivery</h5>
-        <h5>Success Stories</h5>
+        <h5>Our patterns</h5>
+        <h5>Find us at</h5>
+
+        <div className="container">
+          <div className="row-fluid">
+            <div className="span8">
+              <iframe
+                width="100%"
+                height="350"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Fresh Harvests+Bugolobi,+5th street,+Plot 5,+Design Hub,+Kampala,++256kampabits&t=m&z=14&ll=51.077429,1.121722&output=embed"
+              />
+            </div>
+
+            <div className="span4">
+              <h2>Fresh Harvest</h2>
+              <address>
+                <strong>Bugolobi</strong>
+                <br />
+                5th Street
+                <br />
+                Plot 5
+                <br />
+               Design Hub
+                <br />
+                Kampala
+                <br />
+                +256kampabits.
+                <br />
+                <abbr title="Phone">P:</abbr> +256784582091
+              </address>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
