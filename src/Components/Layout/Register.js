@@ -21,7 +21,7 @@ class Register extends Component {
               {/* <label for="inputUserame">Username</label> */}
             </div>
 
-            <div classNameName="form-label-group">
+            <div className="form-label-group">
               <input
                 type="email"
                 id="inputEmail"

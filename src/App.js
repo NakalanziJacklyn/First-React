@@ -20,6 +20,8 @@ import Register from "./Components/Layout/Register";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
+import ReactPaginate from 'react-paginate';
+
 
 class App extends Component {
   render() {
